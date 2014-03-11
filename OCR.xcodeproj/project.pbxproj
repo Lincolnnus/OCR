@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFCEF8D618CF34F400B8A8CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCEF8D518CF34F400B8A8CD /* Foundation.framework */; };
+		CFCEF8D818CF34F400B8A8CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCEF8D718CF34F400B8A8CD /* CoreGraphics.framework */; };
+		CFCEF8DA18CF34F400B8A8CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCEF8D918CF34F400B8A8CD /* UIKit.framework */; };
+		CFCEF8E018CF34F400B8A8CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFCEF8DE18CF34F400B8A8CD /* InfoPlist.strings */; };
+		CFCEF8E218CF34F400B8A8CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCEF8E118CF34F400B8A8CD /* main.m */; };
+		CFCEF8E618CF34F400B8A8CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCEF8E518CF34F400B8A8CD /* AppDelegate.m */; };
+		CFCEF8E918CF34F400B8A8CD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCEF8E718CF34F400B8A8CD /* Main_iPhone.storyboard */; };
+		CFCEF8EC18CF34F400B8A8CD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCEF8EA18CF34F400B8A8CD /* Main_iPad.storyboard */; };
+		CFCEF8EF18CF34F400B8A8CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCEF8EE18CF34F400B8A8CD /* ViewController.m */; };
+		CFCEF8F118CF34F400B8A8CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCEF8F018CF34F400B8A8CD /* Images.xcassets */; };
+		CFCEF8F818CF34F400B8A8CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCEF8F718CF34F400B8A8CD /* XCTest.framework */; };
+		CFCEF8F918CF34F400B8A8CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCEF8D518CF34F400B8A8CD /* Foundation.framework */; };
+		CFCEF8FA18CF34F400B8A8CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCEF8D918CF34F400B8A8CD /* UIKit.framework */; };
+		CFCEF90218CF34F400B8A8CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFCEF90018CF34F400B8A8CD /* InfoPlist.strings */; };
+		CFCEF90418CF34F400B8A8CD /* OCRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCEF90318CF34F400B8A8CD /* OCRTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFCEF8FB18CF34F400B8A8CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCEF8CA18CF34F400B8A8CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCEF8D118CF34F400B8A8CD;
+			remoteInfo = OCR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFCEF8D218CF34F400B8A8CD /* OCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCEF8D518CF34F400B8A8CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFCEF8D718CF34F400B8A8CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CFCEF8D918CF34F400B8A8CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CFCEF8DD18CF34F400B8A8CD /* OCR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCR-Info.plist"; sourceTree = "<group>"; };
+		CFCEF8DF18CF34F400B8A8CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFCEF8E118CF34F400B8A8CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFCEF8E318CF34F400B8A8CD /* OCR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCR-Prefix.pch"; sourceTree = "<group>"; };
+		CFCEF8E418CF34F400B8A8CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFCEF8E518CF34F400B8A8CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFCEF8E818CF34F400B8A8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CFCEF8EB18CF34F400B8A8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CFCEF8ED18CF34F400B8A8CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFCEF8EE18CF34F400B8A8CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFCEF8F018CF34F400B8A8CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CFCEF8F618CF34F400B8A8CD /* OCRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCEF8F718CF34F400B8A8CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CFCEF8FF18CF34F400B8A8CD /* OCRTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCRTests-Info.plist"; sourceTree = "<group>"; };
+		CFCEF90118CF34F400B8A8CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFCEF90318CF34F400B8A8CD /* OCRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCRTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFCEF8CF18CF34F400B8A8CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCEF8D818CF34F400B8A8CD /* CoreGraphics.framework in Frameworks */,
+				CFCEF8DA18CF34F400B8A8CD /* UIKit.framework in Frameworks */,
+				CFCEF8D618CF34F400B8A8CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCEF8F318CF34F400B8A8CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCEF8F818CF34F400B8A8CD /* XCTest.framework in Frameworks */,
+				CFCEF8FA18CF34F400B8A8CD /* UIKit.framework in Frameworks */,
+				CFCEF8F918CF34F400B8A8CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFCEF8C918CF34F400B8A8CD = {
+			isa = PBXGroup;
+			children = (
+				CFCEF8DB18CF34F400B8A8CD /* OCR */,
+				CFCEF8FD18CF34F400B8A8CD /* OCRTests */,
+				CFCEF8D418CF34F400B8A8CD /* Frameworks */,
+				CFCEF8D318CF34F400B8A8CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFCEF8D318CF34F400B8A8CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFCEF8D218CF34F400B8A8CD /* OCR.app */,
+				CFCEF8F618CF34F400B8A8CD /* OCRTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFCEF8D418CF34F400B8A8CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFCEF8D518CF34F400B8A8CD /* Foundation.framework */,
+				CFCEF8D718CF34F400B8A8CD /* CoreGraphics.framework */,
+				CFCEF8D918CF34F400B8A8CD /* UIKit.framework */,
+				CFCEF8F718CF34F400B8A8CD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFCEF8DB18CF34F400B8A8CD /* OCR */ = {
+			isa = PBXGroup;
+			children = (
+				CFCEF8E418CF34F400B8A8CD /* AppDelegate.h */,
+				CFCEF8E518CF34F400B8A8CD /* AppDelegate.m */,
+				CFCEF8E718CF34F400B8A8CD /* Main_iPhone.storyboard */,
+				CFCEF8EA18CF34F400B8A8CD /* Main_iPad.storyboard */,
+				CFCEF8ED18CF34F400B8A8CD /* ViewController.h */,
+				CFCEF8EE18CF34F400B8A8CD /* ViewController.m */,
+				CFCEF8F018CF34F400B8A8CD /* Images.xcassets */,
+				CFCEF8DC18CF34F400B8A8CD /* Supporting Files */,
+			);
+			path = OCR;
+			sourceTree = "<group>";
+		};
+		CFCEF8DC18CF34F400B8A8CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFCEF8DD18CF34F400B8A8CD /* OCR-Info.plist */,
+				CFCEF8DE18CF34F400B8A8CD /* InfoPlist.strings */,
+				CFCEF8E118CF34F400B8A8CD /* main.m */,
+				CFCEF8E318CF34F400B8A8CD /* OCR-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFCEF8FD18CF34F400B8A8CD /* OCRTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCEF90318CF34F400B8A8CD /* OCRTests.m */,
+				CFCEF8FE18CF34F400B8A8CD /* Supporting Files */,
+			);
+			path = OCRTests;
+			sourceTree = "<group>";
+		};
+		CFCEF8FE18CF34F400B8A8CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFCEF8FF18CF34F400B8A8CD /* OCRTests-Info.plist */,
+				CFCEF90018CF34F400B8A8CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFCEF8D118CF34F400B8A8CD /* OCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCEF90718CF34F400B8A8CD /* Build configuration list for PBXNativeTarget "OCR" */;
+			buildPhases = (
+				CFCEF8CE18CF34F400B8A8CD /* Sources */,
+				CFCEF8CF18CF34F400B8A8CD /* Frameworks */,
+				CFCEF8D018CF34F400B8A8CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCR;
+			productName = OCR;
+			productReference = CFCEF8D218CF34F400B8A8CD /* OCR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFCEF8F518CF34F400B8A8CD /* OCRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCEF90A18CF34F400B8A8CD /* Build configuration list for PBXNativeTarget "OCRTests" */;
+			buildPhases = (
+				CFCEF8F218CF34F400B8A8CD /* Sources */,
+				CFCEF8F318CF34F400B8A8CD /* Frameworks */,
+				CFCEF8F418CF34F400B8A8CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCEF8FC18CF34F400B8A8CD /* PBXTargetDependency */,
+			);
+			name = OCRTests;
+			productName = OCRTests;
+			productReference = CFCEF8F618CF34F400B8A8CD /* OCRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFCEF8CA18CF34F400B8A8CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = li.shaohuan;
+				TargetAttributes = {
+					CFCEF8F518CF34F400B8A8CD = {
+						TestTargetID = CFCEF8D118CF34F400B8A8CD;
+					};
+				};
+			};
+			buildConfigurationList = CFCEF8CD18CF34F400B8A8CD /* Build configuration list for PBXProject "OCR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFCEF8C918CF34F400B8A8CD;
+			productRefGroup = CFCEF8D318CF34F400B8A8CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFCEF8D118CF34F400B8A8CD /* OCR */,
+				CFCEF8F518CF34F400B8A8CD /* OCRTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFCEF8D018CF34F400B8A8CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCEF8EC18CF34F400B8A8CD /* Main_iPad.storyboard in Resources */,
+				CFCEF8F118CF34F400B8A8CD /* Images.xcassets in Resources */,
+				CFCEF8E918CF34F400B8A8CD /* Main_iPhone.storyboard in Resources */,
+				CFCEF8E018CF34F400B8A8CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCEF8F418CF34F400B8A8CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCEF90218CF34F400B8A8CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFCEF8CE18CF34F400B8A8CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCEF8EF18CF34F400B8A8CD /* ViewController.m in Sources */,
+				CFCEF8E618CF34F400B8A8CD /* AppDelegate.m in Sources */,
+				CFCEF8E218CF34F400B8A8CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCEF8F218CF34F400B8A8CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCEF90418CF34F400B8A8CD /* OCRTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFCEF8FC18CF34F400B8A8CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCEF8D118CF34F400B8A8CD /* OCR */;
+			targetProxy = CFCEF8FB18CF34F400B8A8CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFCEF8DE18CF34F400B8A8CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCEF8DF18CF34F400B8A8CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFCEF8E718CF34F400B8A8CD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCEF8E818CF34F400B8A8CD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CFCEF8EA18CF34F400B8A8CD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCEF8EB18CF34F400B8A8CD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CFCEF90018CF34F400B8A8CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCEF90118CF34F400B8A8CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFCEF90518CF34F400B8A8CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFCEF90618CF34F400B8A8CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFCEF90818CF34F400B8A8CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCR/OCR-Prefix.pch";
+				INFOPLIST_FILE = "OCR/OCR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFCEF90918CF34F400B8A8CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCR/OCR-Prefix.pch";
+				INFOPLIST_FILE = "OCR/OCR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CFCEF90B18CF34F400B8A8CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCR.app/OCR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCR/OCR-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OCRTests/OCRTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CFCEF90C18CF34F400B8A8CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCR.app/OCR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCR/OCR-Prefix.pch";
+				INFOPLIST_FILE = "OCRTests/OCRTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFCEF8CD18CF34F400B8A8CD /* Build configuration list for PBXProject "OCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCEF90518CF34F400B8A8CD /* Debug */,
+				CFCEF90618CF34F400B8A8CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCEF90718CF34F400B8A8CD /* Build configuration list for PBXNativeTarget "OCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCEF90818CF34F400B8A8CD /* Debug */,
+				CFCEF90918CF34F400B8A8CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFCEF90A18CF34F400B8A8CD /* Build configuration list for PBXNativeTarget "OCRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCEF90B18CF34F400B8A8CD /* Debug */,
+				CFCEF90C18CF34F400B8A8CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFCEF8CA18CF34F400B8A8CD /* Project object */;
+}
