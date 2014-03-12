@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>924D3B5D-709F-4CBC-9900-4DAF011B0E15</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OCR</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>222501AF-8C0C-4F12-AB3F-096B909B3395</key>
+		<string>https://github.com/Lincolnnus/OCR.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OCR.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>222501AF-8C0C-4F12-AB3F-096B909B3395</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Lincolnnus/OCR.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>222501AF-8C0C-4F12-AB3F-096B909B3395</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>222501AF-8C0C-4F12-AB3F-096B909B3395</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OCR</string>
+		</dict>
+	</array>
+</dict>
+</plist>
