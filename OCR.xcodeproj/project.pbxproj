@@ -22,6 +22,10 @@
 		CFCEF8FA18CF34F400B8A8CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCEF8D918CF34F400B8A8CD /* UIKit.framework */; };
 		CFCEF90218CF34F400B8A8CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFCEF90018CF34F400B8A8CD /* InfoPlist.strings */; };
 		CFCEF90418CF34F400B8A8CD /* OCRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCEF90318CF34F400B8A8CD /* OCRTests.m */; };
+		CFCEF90E18CF37EE00B8A8CD /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCEF90D18CF37EE00B8A8CD /* TesseractOCR.framework */; };
+		CFCEF91018CF3CA500B8A8CD /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCEF90F18CF3CA500B8A8CD /* libstdc++.6.0.9.dylib */; };
+		CFCEF93118CF44F500B8A8CD /* image_sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFCEF93018CF44F500B8A8CD /* image_sample.jpg */; };
+		CFCEF93518CF4D5F00B8A8CD /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = CFCEF93418CF4D5F00B8A8CD /* tessdata */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		CFCEF8FF18CF34F400B8A8CD /* OCRTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCRTests-Info.plist"; sourceTree = "<group>"; };
 		CFCEF90118CF34F400B8A8CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CFCEF90318CF34F400B8A8CD /* OCRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCRTests.m; sourceTree = "<group>"; };
+		CFCEF90D18CF37EE00B8A8CD /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TesseractOCR.framework; path = OCR/Products/TesseractOCR.framework; sourceTree = "<group>"; };
+		CFCEF90F18CF3CA500B8A8CD /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		CFCEF93018CF44F500B8A8CD /* image_sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_sample.jpg; sourceTree = "<group>"; };
+		CFCEF93418CF4D5F00B8A8CD /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFCEF91018CF3CA500B8A8CD /* libstdc++.6.0.9.dylib in Frameworks */,
+				CFCEF90E18CF37EE00B8A8CD /* TesseractOCR.framework in Frameworks */,
 				CFCEF8D818CF34F400B8A8CD /* CoreGraphics.framework in Frameworks */,
 				CFCEF8DA18CF34F400B8A8CD /* UIKit.framework in Frameworks */,
 				CFCEF8D618CF34F400B8A8CD /* Foundation.framework in Frameworks */,
@@ -103,6 +113,8 @@
 		CFCEF8D418CF34F400B8A8CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CFCEF90F18CF3CA500B8A8CD /* libstdc++.6.0.9.dylib */,
+				CFCEF90D18CF37EE00B8A8CD /* TesseractOCR.framework */,
 				CFCEF8D518CF34F400B8A8CD /* Foundation.framework */,
 				CFCEF8D718CF34F400B8A8CD /* CoreGraphics.framework */,
 				CFCEF8D918CF34F400B8A8CD /* UIKit.framework */,
@@ -114,8 +126,9 @@
 		CFCEF8DB18CF34F400B8A8CD /* OCR */ = {
 			isa = PBXGroup;
 			children = (
-				CFCEF8E418CF34F400B8A8CD /* AppDelegate.h */,
+				CFCEF93418CF4D5F00B8A8CD /* tessdata */,
 				CFCEF8E518CF34F400B8A8CD /* AppDelegate.m */,
+				CFCEF8E418CF34F400B8A8CD /* AppDelegate.h */,
 				CFCEF8E718CF34F400B8A8CD /* Main_iPhone.storyboard */,
 				CFCEF8EA18CF34F400B8A8CD /* Main_iPad.storyboard */,
 				CFCEF8ED18CF34F400B8A8CD /* ViewController.h */,
@@ -129,6 +142,7 @@
 		CFCEF8DC18CF34F400B8A8CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CFCEF93018CF44F500B8A8CD /* image_sample.jpg */,
 				CFCEF8DD18CF34F400B8A8CD /* OCR-Info.plist */,
 				CFCEF8DE18CF34F400B8A8CD /* InfoPlist.strings */,
 				CFCEF8E118CF34F400B8A8CD /* main.m */,
@@ -232,9 +246,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFCEF8EC18CF34F400B8A8CD /* Main_iPad.storyboard in Resources */,
+				CFCEF93118CF44F500B8A8CD /* image_sample.jpg in Resources */,
 				CFCEF8F118CF34F400B8A8CD /* Images.xcassets in Resources */,
 				CFCEF8E918CF34F400B8A8CD /* Main_iPhone.storyboard in Resources */,
 				CFCEF8E018CF34F400B8A8CD /* InfoPlist.strings in Resources */,
+				CFCEF93518CF4D5F00B8A8CD /* tessdata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,10 +406,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCR/Products",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCR/OCR-Prefix.pch";
 				INFOPLIST_FILE = "OCR/OCR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				"OTHER_LDFLAGS[arch=*]" = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +427,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCR/Products",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCR/OCR-Prefix.pch";
 				INFOPLIST_FILE = "OCR/OCR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				"OTHER_LDFLAGS[arch=*]" = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +502,7 @@
 				CFCEF90918CF34F400B8A8CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFCEF90A18CF34F400B8A8CD /* Build configuration list for PBXNativeTarget "OCRTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +511,7 @@
 				CFCEF90C18CF34F400B8A8CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
