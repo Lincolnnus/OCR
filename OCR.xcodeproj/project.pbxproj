@@ -10,7 +10,6 @@
 		89AEBFB71887427EA4734CD4 /* libPods-OCR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 979C1B2745B944BB9817313A /* libPods-OCR.a */; };
 		B514EC989E2B46B795220B2D /* libPods-OCRTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C169B508E14BACBD635867 /* libPods-OCRTests.a */; };
 		CF775A4E18D098470074C04F /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF775A4D18D098470074C04F /* PageContentViewController.m */; };
-		CF775A5118D09E4D0074C04F /* AnnotationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF775A5018D09E4D0074C04F /* AnnotationModel.m */; };
 		CFCEF8D618CF34F400B8A8CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCEF8D518CF34F400B8A8CD /* Foundation.framework */; };
 		CFCEF8D818CF34F400B8A8CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCEF8D718CF34F400B8A8CD /* CoreGraphics.framework */; };
 		CFCEF8DA18CF34F400B8A8CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCEF8D918CF34F400B8A8CD /* UIKit.framework */; };
@@ -49,8 +48,6 @@
 		A21C5087411140C1B3E8AB18 /* Pods-OCR.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR.xcconfig"; path = "Pods/Pods-OCR.xcconfig"; sourceTree = "<group>"; };
 		CF775A4C18D098470074C04F /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
 		CF775A4D18D098470074C04F /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
-		CF775A4F18D09E4D0074C04F /* AnnotationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationModel.h; sourceTree = "<group>"; };
-		CF775A5018D09E4D0074C04F /* AnnotationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationModel.m; sourceTree = "<group>"; };
 		CFCEF8D218CF34F400B8A8CD /* OCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCEF8D518CF34F400B8A8CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CFCEF8D718CF34F400B8A8CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -155,8 +152,6 @@
 				CFCEF8EE18CF34F400B8A8CD /* ViewController.m */,
 				CFCEF8F018CF34F400B8A8CD /* Images.xcassets */,
 				CFCEF8DC18CF34F400B8A8CD /* Supporting Files */,
-				CF775A4F18D09E4D0074C04F /* AnnotationModel.h */,
-				CF775A5018D09E4D0074C04F /* AnnotationModel.m */,
 			);
 			path = OCR;
 			sourceTree = "<group>";
@@ -358,7 +353,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF775A5118D09E4D0074C04F /* AnnotationModel.m in Sources */,
 				CFCEF8EF18CF34F400B8A8CD /* ViewController.m in Sources */,
 				CF775A4E18D098470074C04F /* PageContentViewController.m in Sources */,
 				CFCEF8E618CF34F400B8A8CD /* AppDelegate.m in Sources */,
